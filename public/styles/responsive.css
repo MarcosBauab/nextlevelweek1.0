@@ -1,0 +1,75 @@
+@media (max-width: 1020px){
+    #page-home{
+        background-position-x: 700vw;
+    }
+    #page-home .content{
+        align-items: center;
+        text-align: center;
+    }
+    #page-home header a{
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    #page-home main{
+        align-items: center;
+    }
+    #page-search-results .cards{
+        grid-template-columns: 1fr;
+    }
+    #page-search-results header a{
+        position: absolute;
+        right: 5px;
+    }
+    #page-search-results header a span{
+        margin-right: 25px;
+    }
+    #page-search-results header img{
+        position: absolute;
+        left: 5px;
+    }
+    #page-create-point form {
+        padding-right: 50px;
+        width: 60vw;
+        margin: 0;
+        margin-left: 100px;
+    }
+}
+@media(max-width: 500px){
+    #page-search-results header a p{
+        display: none;
+    }
+    #page-create-point{
+        width: 400px;
+    }
+    #page-create-point form {
+        padding: 0;
+        justify-content: center;
+        align-items: center;
+        width: 400px;
+        margin: 5px 5px;
+    }
+}
+@media(min-width: 1440px){
+    #page-home{
+        /*background-position-x: 45vw;*/
+        background-position: 40vw 25vh;
+    }         
+}
+@media(min-width: 1020px) and (max-width: 1300px){
+    #page-home{
+        background-position: 30vw 30vh;
+    }
+    #page-home .content{
+        margin-left: 0;
+    }
+    #page-home header{
+        width: 1000px;
+    }
+}
+@media(min-width: 1700px){
+    #page-home{
+        background-position: 40vw 30vh;
+    }
+}

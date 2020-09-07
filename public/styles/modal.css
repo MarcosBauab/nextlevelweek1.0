@@ -1,0 +1,88 @@
+#modal{
+    background-color: #0E0A14ef;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: 800ms;
+}
+#modal.hide{
+    display: none;
+}
+#modal .content{
+    color: white;
+    width: 420px;
+}
+#modal .content .header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 48px;
+}
+#modal .content .header a{
+    background-image: url(/extras-aula-1/x.svg);
+    
+    width: 20px;
+    height: 20px;
+
+    font-size: 0.01px;
+}
+#modal .content .header h1{
+    color: white;
+
+    font-size: 36px;
+}
+#modal form label{
+    font-size: 14px;
+    line-height: 16px;
+
+    display: block;
+    margin-bottom: 8px;
+}
+#modal form .field{
+    display: flex;
+}
+#modal form .field input{
+    flex: 1;
+    
+    background-color: var(--branco);
+
+    border-radius: 8px 0 0 8px;
+    border: 0;
+
+    padding: 16px 24px;
+
+    font-size: 16px;
+    color: #6c6c80;
+}
+#modal form .field button{
+    width: 72px;
+    height: 72px;
+
+    background-color: #2ec462;
+    
+    cursor: pointer;
+    
+    border-radius: 0 8px 8px 0;
+    border: 0;
+}
+#modal form .field button:hover{
+    background-color: rgb(29, 165, 70);
+}
+/* MODAL CREATE POINT*/
+#modal.point .content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+#modal.point .content h1{
+    color: white;
+    margin-top: 20px;
+}
